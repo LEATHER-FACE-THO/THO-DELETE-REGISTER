@@ -170,7 +170,7 @@ class CleanerPanel(QMainWindow):
                 background-color: rgba(88, 101, 242, 0.6);
             }
         """)
-        support_btn.clicked.connect(lambda: webbrowser.open('https://discord.gg/uPESr5v7yQ'))
+        support_btn.clicked.connect(lambda: webbrowser.open('https://discord.gg/Zcq7GD3FFH'))
         buttons_layout.addWidget(support_btn)
         
         self.layout.addLayout(buttons_layout)
@@ -588,4 +588,5 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = CleanerPanel()
     window.show()
+
     sys.exit(app.exec())
